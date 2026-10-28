@@ -1,0 +1,9 @@
+@MiniSuperMarket.API_HostAddress = https://localhost:7123
+
+### Đăng nhập lấy token (admin / cashier, mật khẩu 123456)
+POST {{MiniSuperMarket.API_HostAddress}}/api/auth/login
+Content-Type: application/json
+
+{ "username": "admin", "password": "123456" }
+
+###
